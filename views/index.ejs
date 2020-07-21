@@ -1,0 +1,80 @@
+<%- include("../partials/head.ejs") %>
+
+    <body>
+        <form id="test-form" method="POST" action="/predict">
+            
+            <label for="item">Enter the item you want to buy</label>
+            <br>
+            <input type="text" name="item" value="<%=qs.item%>" required>
+            <br>
+            <br>
+            <button id="buttonId" onclick="myFunction()">Submit</button>
+
+        </form>
+
+        <section class="boxes-one">
+            <div class="box-one">
+                <h3>Chicken</h3>
+                <img class="icons" src="../assets/chicken.jpg">
+                
+                
+            </div>
+
+
+            <div class="box-one">
+                
+                <h3>Escalope</h3>
+                <img class="icons" src="../assets/escalope.jpg">
+                
+                
+            </div>
+
+            <div class="box-one">
+                
+                <h3>Honey</h3>
+                <img class="icons" src="../assets/honey.jpg">
+                
+            </div>
+
+            
+            
+        </section>
+
+        <section class="boxes-two">
+            <div class="box-two">
+                
+                <h3>Ground Beef</h3>
+                <img class="icons" src="../assets/gb.jpg">
+                
+            </div>
+
+
+            <div class="box-two">
+                
+                <h3>Olive Oil</h3>
+                <img class="icons" src="../assets/olive.jpg">
+                
+            </div>
+
+            <div class="box-two">
+                
+                <h3>Shrimp</h3>
+                <img class="icons" src="../assets/shrimp.jpg">
+                
+            </div>
+
+            
+            
+        </section>
+
+            
+    </body>
+
+
+
+
+
+
+
+
+</html>

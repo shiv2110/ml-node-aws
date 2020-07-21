@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction | Results</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles-home.css">
+    
+  </head>
+  <body>
+    <form id="test-form" method="POST" action="/predict">
+      
+        <label for="item">Enter the item you want to buy</label>
+        <br>
+        
+        <input type="text" name="item" required>
+      
+        <br>
+        <br>
+
+
+        <button id="buttonId">Submit</button>
+        
+            
+
+    </form>
+      <div class="result">
+        <%= pred %>
+        <br>
+        <br>
+        <a href="#">yes</a>
+        <a href="#">no</a>
+      </div>
+
+
+        
+  </body>
+
+
+  </html>
+
+
+
+
+
+</html>
